@@ -3,10 +3,10 @@
   <img src="https://profile-counter.glitch.me/RahilBhavan/count.svg" alt="visitor count" align="right" />
 
   # ⚡ Rahil Bhavan
-  ### Engineering Alpha on the Blockchain
+  ### Mechanical Engineering
 
   <p align="center">
-    <b>Mechanical Engineer x Quant Developer</b>
+    <b>Mechanical Engineer</b>
     <br/>
     <i>University of Michigan</i>
   </p>
