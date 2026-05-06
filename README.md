@@ -1,6 +1,6 @@
 # Rahil Bhavan
 
-**University of Michigan, Computer Engineering** — I ship **on-chain systems, DeFi risk tooling, and data products** with a quant mindset: replayable stress cases, honest yield math, and interfaces that survive real markets.
+**University of Michigan, Computer Engineering** — Student learning anything DeFi/crypto, computer engineering and finance on a global stage. 
 
 <div align="center">
 
@@ -44,17 +44,7 @@
 | [**KYA Protocol**](https://github.com/RahilBhavan/KYA) | Decentralized **underwriting for AI agent identities** — bonded identities with **ERC-6551** TBAs, reputation, insurance-style staking, and **4337** paymaster patterns. |
 | [**gm_mecg**](https://github.com/RahilBhavan/gm_mecg) | **Automotive supply-chain quarterly financials** — **SEC + Yahoo Finance → Excel** pipelines for repeatable reporting. |
 | [**wingbits**](https://github.com/RahilBhavan/wingbits) | **Wingbits Customer API** — **TypeScript SDK**, CLI, flights / GPS-jamming workflows, **Ink** TUI. |
-| [**MECG-website**](https://github.com/RahilBhavan/MECG-website) | **MECG** marketing / web surface (pairs with the operational data work above). |
 
-### Also strong signals
-
-| Project | One-liner |
-|--------|-----------|
-| [**Smart Contract Invariant Monitor & Guardian**](https://github.com/RahilBhavan/Smart-Contract-Invariant-Monitor-and-Guardian-) | Replay **historical exploits**, catch **invariant breaks early**, export **analyst-ready reports** (Euler-class scenarios). |
-| [**Quant Matrix (DeFi)**](https://github.com/RahilBhavan/quant-matrix-v2) | Visual strategy builder with **historical backtesting** (subgraph-backed) and **Sepolia** execution paths. |
-| [**DeFi Builder**](https://github.com/RahilBhavan/defi-builder) | **Visual + AI-assisted** strategy composition — larger application surface for product-minded protocol work. |
-| [**Liquidity Vector**](https://github.com/RahilBhavan/liquidityvector) | **Cross-chain yield** and **breakeven / execution** framing — architecture-first take on moving liquidity. |
-| [**AgentVault**](https://github.com/RahilBhavan/aiagentos) | **Policy-enforced treasuries for AI agents** — ERC-4337, dashboard, **TypeScript SDK**; agent spend and guardrails as a product surface. |
 
 ## Stack
 
