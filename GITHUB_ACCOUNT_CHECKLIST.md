@@ -11,7 +11,7 @@ Complete these in the GitHub UI so your **profile page** matches the recruiter-o
 Copy-paste starting point (trim to fit):
 
 ```text
-UMich MechE · DeFi risk & on-chain systems · protocol tooling, simulation, TypeScript/Solidity/Rust
+UMich CS+Econ · DeFi risk & on-chain systems · protocol tooling, simulation, TypeScript/Solidity/Rust
 ```
 
 Adjust keywords to match your **top 1–2 role targets** (e.g. add "smart contracts" or "quant dev").
@@ -26,14 +26,14 @@ Adjust keywords to match your **top 1–2 role targets** (e.g. add "smart contra
 
 ## Pinned repositories (6 slots)
 
-Suggested order (mix of **risk**, **tooling**, **product**); replace if a repo is private or you prefer another public repo.
+Matches the README's **Featured work** table — keep the two in sync going forward; if you retire a repo from one, retire it from both.
 
-1. `Smart-Contract-Invariant-Monitor-and-Guardian-` — exploit replay / invariants (strong signal).
-2. `summer-fi-risk-analysis` — stress case + methodology write-up.
-3. `quant-matrix-v2` — builder + backtest + Web3.
-4. `defi-builder` — larger application surface (AI, optimization).
-5. `liquidityvector` — execution / yield framing + architecture.
-6. `beefy-yield-fidelity-monitor` — dashboard / break-even narrative (README upgraded in-repo).
+1. `summer-fi-risk-analysis` — stress case + methodology write-up.
+2. `beefy-yield-fidelity-monitor` — dashboard / break-even narrative (README upgraded in-repo).
+3. `KYA` — decentralized underwriting for AI agent identities (ERC-6551, 4337-aware).
+4. `gm_mecg` — automotive supply-chain quarterly financials pipeline.
+5. `wingbits` — Wingbits Customer API TypeScript SDK + CLI.
+6. *(open slot)* — add a 6th public repo if you want one; otherwise leave 5 pinned.
 
 **For each pin:** on the repo → **⚙ About** → short description, **Topics** (e.g. `defi`, `nextjs`, `solidity`, `risk`), **Website** if you have a demo deploy.
 
@@ -52,12 +52,11 @@ For each pinned repo, the root README should answer quickly:
 
 | Repository | Notes |
 |------------|--------|
-| Smart-Contract-Invariant-Monitor-and-Guardian- | Strong README; optional screenshot of sample report output. |
 | summer-fi-risk-analysis | Strong methodology + run steps. |
-| quant-matrix-v2 | Strong; consider **Tests** / **Local dev** near top if missing. |
-| defi-builder | Strong; keep **Quick start** immediately after intro. |
-| liquidityvector | Strong architecture; ensure **Quick start** is easy to find. |
 | beefy-yield-fidelity-monitor | README replaced (no CRA boilerplate); Dependabot added via `.github/dependabot.yml`. |
+| KYA | Confirm README has Quick start + status (active / research / archived). |
+| gm_mecg | Confirm README has Quick start + status (active / research / archived). |
+| wingbits | Confirm README has Quick start + status (active / research / archived). |
 
 ## Before you send applications
 
@@ -68,6 +67,6 @@ For each pinned repo, the root README should answer quickly:
 
 ## Audit log (readonly profile review)
 
-- **Removed from profile README:** Glitch visitor counter, trophy widget, GitHub Readme Stats, streak-stats (fewer third-party failures; calmer signal for finance hiring).
-- **Messaging:** Headline ties **MechE + UMich** to **DeFi / on-chain / simulation** in one scan line.
+- **2026-08-13:** Removed the GitHub Readme Stats cards and profile-trophy widget from `README.md` — both were live-broken (503 / 402 from their hosting services) despite this log previously claiming they'd been removed. Kept `streak-stats` (verified working). Fixed the CompE/MechE mismatch between the README headline and this checklist's bio copy. Re-synced the pinned-repo list above to match the README's Featured work table (they'd drifted after outdated projects were removed from the README).
+- **Messaging:** Headline ties **UMich Computer Engineering and Economics** to **DeFi / on-chain / simulation** in one scan line.
 - **Reliability:** Featured section uses stable GitHub links only (no hotlinked widget images).

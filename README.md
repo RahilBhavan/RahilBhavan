@@ -1,17 +1,12 @@
 # Rahil Bhavan
 
-**University of Michigan, Computer Engineering** — Student learning anything DeFi/crypto, computer engineering and finance on a global stage. 
+**University of Michigan, Computer Engineering and Economics** — Student learning anything DeFi/crypto, computer engineering and finance on a global stage. 
 
 ## Activity
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=RahilBhavan&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true" alt="GitHub stats for RahilBhavan" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RahilBhavan&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6&size_weight=0.5&count_weight=0.5" alt="Top languages" />
-
 <img src="https://streak-stats.demolab.com/?user=RahilBhavan&theme=dark&hide_border=true&background=0D1117&ring=30363D&fire=58A6FF&sideNums=C9D1D9&sideLabels=8B949E&dates=6E7681&hide_current_streak=true&card_width=330&disable_animations=true" alt="Total GitHub contributions and longest streak" />
-
-<img width="98%" src="https://github-profile-trophy.vercel.app/?username=RahilBhavan&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=5&title=-Commits,-Reviews&rank=-?" alt="GitHub profile trophies (excludes unknown / broken signals)" />
 
 </div>
 
