@@ -28,12 +28,12 @@ Adjust keywords to match your **top 1–2 role targets** (e.g. add "smart contra
 
 Matches the README's **Featured work** table — keep the two in sync going forward; if you retire a repo from one, retire it from both.
 
-1. `summer-fi-risk-analysis` — stress case + methodology write-up.
-2. `beefy-yield-fidelity-monitor` — dashboard / break-even narrative (README upgraded in-repo).
-3. `KYA` — decentralized underwriting for AI agent identities (ERC-6551, 4337-aware).
-4. `gm_mecg` — automotive supply-chain quarterly financials pipeline.
-5. `wingbits` — Wingbits Customer API TypeScript SDK + CLI.
-6. *(open slot)* — add a 6th public repo if you want one; otherwise leave 5 pinned.
+1. `spine` - live stress test of Coinbase's Morpho loan book on Base.
+2. `mara-credit-case` - credit committee case on a $5M secured revolver to MARA.
+3. `coin-revenue-bridge` - Q3 to Q4 2024 Coinbase consumer revenue bridge from SEC filings.
+4. `x402-exception-desk` - synthetic x402 payment exception desk.
+5. `summer-fi-risk-analysis` - stress case + methodology write-up.
+6. `guardian-pipeline` - cross-deployment DeFi invariant enforcement (Foundry fuzz in CI).
 
 **For each pin:** on the repo → **⚙ About** → short description, **Topics** (e.g. `defi`, `nextjs`, `solidity`, `risk`), **Website** if you have a demo deploy.
 
