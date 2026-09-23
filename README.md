@@ -36,6 +36,17 @@
 - **Identity & agents on-chain** — underwriting-style primitives for verifiable agent economies (ERC-6551, 4337-aware flows).
 - **Ops-grade data** — scrape → normalize → ship (supply-chain finance, market consoles, customer API SDKs).
 
+## Crypto finance case studies
+
+Four independent projects built from public data. Overview: [rahilbhavan.com/crypto-finance](https://rahilbhavan.com/crypto-finance)
+
+| Project | Result | Live |
+|--------|-----------|------|
+| [**Spine**](https://github.com/RahilBhavan/spine) | Replays Coinbase's on-chain loan book (Morpho on Base) through seven historical crashes; liquidator capital, not the LTV, is what binds. | [dashboard](https://rahilbhavan.github.io/spine/) |
+| [**MARA credit case**](https://github.com/RahilBhavan/mara-credit-case) | Credit committee case on a $5M secured revolver to MARA Holdings; the collateral waterfall supports a conditional $3.0M. | [decision view](https://rahilbhavan.github.io/mara-credit-case/) |
+| [**COIN revenue bridge**](https://github.com/RahilBhavan/coin-revenue-bridge) | Splits Coinbase's $863.8M Q3 to Q4 2024 consumer revenue jump from SEC filings: $852.9M volume, $10.9M yield. | [case study](https://rahilbhavan.github.io/coin-revenue-bridge/) |
+| [**x402 exception desk**](https://github.com/RahilBhavan/x402-exception-desk) | Synthetic x402 payment exception desk; across 3,600 scenarios no queue policy wins on every objective. | [operator report](https://rahilbhavan.github.io/x402-exception-desk/) |
+
 ## Featured work
 
 | Project | One-liner |
@@ -53,6 +64,7 @@ Python · TypeScript · Next.js · Solidity · Foundry / Hardhat · Rust · Fast
 
 ## Contact
 
+- **Website:** [rahilbhavan.com](https://rahilbhavan.com)
 - **LinkedIn:** [linkedin.com/in/rahil-bhavan](https://www.linkedin.com/in/rahil-bhavan/)
 - **Email:** [rbhavan@umich.edu](mailto:rbhavan@umich.edu)
 
