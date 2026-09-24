@@ -1,6 +1,6 @@
 # Rahil Bhavan
 
-**University of Michigan, Computer Engineering and Economics** — Student learning anything DeFi/crypto, computer engineering and finance on a global stage. 
+**University of Michigan, Computer Engineering and Economics.** I build risk models, data pipelines and tools for crypto markets and finance.
 
 ## Activity
 
@@ -70,4 +70,4 @@ Python · TypeScript · Next.js · Solidity · Foundry / Hardhat · Rust · Fast
 
 ---
 
-**Open to internships and full-time roles** in **on-chain risk, protocol engineering, and quant-leaning DeFi / data**. For pin order, private-contribution settings, and README hygiene, see [GITHUB_ACCOUNT_CHECKLIST.md](GITHUB_ACCOUNT_CHECKLIST.md).
+**Open to internships and full-time roles** in **on-chain risk, protocol engineering, and quant-leaning DeFi / data**.
