@@ -12,29 +12,29 @@
 
 ## At a glance
 
-- **Systems + software:** **computer engineering** lens on **full-stack delivery**, performance, and correctness — applied to **protocols and markets**.
+- **Systems + software:** **computer engineering** lens on **full-stack delivery**, performance, and correctness, applied to **protocols and markets**.
 - **Domains:** DeFi risk & automation, smart contracts, **simulation & backtests**, data/ETL pipelines, SDKs and operator tooling.
 - **Proof over pitch:** public repos with **methodology, runbooks, and runnable code** where it matters.
-- **Work authorization:** **U.S. citizen** — no sponsorship required.
+- **Work authorization:** **U.S. citizen**, no sponsorship required.
 
 ## Building now
 
-- **Protocol monitoring & invariants** — Rust / EVM replay-style workflows; early warning on broken assumptions.
-- **Stress-testing automation** — stop-loss and vault behavior under **gas spikes and drawdowns**.
-- **Product surfaces** — strategy builders, dashboards, and **paper / testnet paths** before mainnet.
+- **Protocol monitoring & invariants**: Rust / EVM replay-style workflows; early warning on broken assumptions.
+- **Stress-testing automation**: stop-loss and vault behavior under **gas spikes and drawdowns**.
+- **Product surfaces**: strategy builders, dashboards, and **paper / testnet paths** before mainnet.
 
 ## How I ship
 
-- **Reproducible narratives** — stress windows, parameters, and outcomes a reviewer can follow.
-- **Clear boundaries** — what the model assumes vs. what on-chain reality can break.
-- **Docs first for collaborators** — quick start, status (active / research / archived), and how to verify.
+- **Reproducible narratives**: stress windows, parameters, and outcomes a reviewer can follow.
+- **Clear boundaries**: what the model assumes vs. what on-chain reality can break.
+- **Docs first for collaborators**: quick start, status (active / research / archived), and how to verify.
 
 ## What I do
 
-- **Protocol safety & automation** — invariant checks, historical replay, and stress paths (gas, liquidity, vol).
-- **Yield & execution clarity** — net APY, break-even framing, and dashboards that match how positions actually behave.
-- **Identity & agents on-chain** — underwriting-style primitives for verifiable agent economies (ERC-6551, 4337-aware flows).
-- **Ops-grade data** — scrape → normalize → ship (supply-chain finance, market consoles, customer API SDKs).
+- **Protocol safety & automation**: invariant checks, historical replay, and stress paths (gas, liquidity, vol).
+- **Yield & execution clarity**: net APY, break-even framing, and dashboards that match how positions actually behave.
+- **Identity & agents on-chain**: underwriting-style primitives for verifiable agent economies (ERC-6551, 4337-aware flows).
+- **Ops-grade data**: scrape → normalize → ship (supply-chain finance, market consoles, customer API SDKs).
 
 ## Crypto finance case studies
 
@@ -53,9 +53,9 @@ Four independent projects built from public data. Overview: [rahilbhavan.com/cry
 |--------|-----------|
 | [**Summer.fi risk analysis**](https://github.com/RahilBhavan/summer-fi-risk-analysis) | Simulation + write-up on **dynamic stop-loss** and automation under **extreme vol and gas** (e.g. Aug 2024–style stress) for Aave / Morpho-class stacks. |
 | [**Beefy yield–fidelity monitor**](https://github.com/RahilBhavan/beefy-yield-fidelity-monitor) | **Net APY** and **break-even** framing so headline yield matches what users actually earn after fees, routes, and reality. |
-| [**KYA Protocol**](https://github.com/RahilBhavan/KYA) | Decentralized **underwriting for AI agent identities** — bonded identities with **ERC-6551** TBAs, reputation, insurance-style staking, and **4337** paymaster patterns. |
-| [**gm_mecg**](https://github.com/RahilBhavan/gm_mecg) | **Automotive supply-chain quarterly financials** — **SEC + Yahoo Finance → Excel** pipelines for repeatable reporting. |
-| [**wingbits**](https://github.com/RahilBhavan/wingbits) | **Wingbits Customer API** — **TypeScript SDK**, CLI, flights / GPS-jamming workflows, **Ink** TUI. |
+| [**KYA Protocol**](https://github.com/RahilBhavan/KYA) | Decentralized **underwriting for AI agent identities**: bonded identities with **ERC-6551** TBAs, reputation, insurance-style staking, and **4337** paymaster patterns. |
+| [**gm_mecg**](https://github.com/RahilBhavan/gm_mecg) | **Automotive supply-chain quarterly financials**: **SEC + Yahoo Finance → Excel** pipelines for repeatable reporting. |
+| [**wingbits**](https://github.com/RahilBhavan/wingbits) | **Wingbits Customer API**: **TypeScript SDK**, CLI, flights / GPS-jamming workflows, **Ink** TUI. |
 
 
 ## Stack
