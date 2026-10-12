@@ -51,11 +51,10 @@ Four independent projects built from public data. Overview: [rahilbhavan.com/cry
 
 | Project | One-liner |
 |--------|-----------|
-| [**Summer.fi risk analysis**](https://github.com/RahilBhavan/summer-fi-risk-analysis) | Simulation + write-up on **dynamic stop-loss** and automation under **extreme vol and gas** (e.g. Aug 2024–style stress) for Aave / Morpho-class stacks. |
+| [**dat-accretion**](https://github.com/RahilBhavan/dat-accretion) | Per-share effect of **Strategy** and **BitMine** capital actions on **net coins per share**, and each program's **break-even price**. [Dashboard](https://rahilbhavan.github.io/dat-accretion/) |
+| [**Filing research assistant**](https://github.com/RahilBhavan/filing-research-assistant) | **Cited Q&A over SEC 10-K / 10-Q filings** with a held-out eval: complete gold evidence on **18/20** answerable questions, correct **abstention on 10/10** unsupported ones. |
+| [**Ondo flows**](https://github.com/RahilBhavan/Ondo) | Weekly **OUSG / USDY** instant mint and redeem flows, net flow, and unique wallets from **public on-chain data**. [Flows view](https://ondo-nexus.vercel.app/flows) |
 | [**Beefy yield–fidelity monitor**](https://github.com/RahilBhavan/beefy-yield-fidelity-monitor) | **Net APY** and **break-even** framing so headline yield matches what users actually earn after fees, routes, and reality. |
-| [**KYA Protocol**](https://github.com/RahilBhavan/KYA) | Decentralized **underwriting for AI agent identities**: bonded identities with **ERC-6551** TBAs, reputation, insurance-style staking, and **4337** paymaster patterns. |
-| [**gm_mecg**](https://github.com/RahilBhavan/gm_mecg) | **Automotive supply-chain quarterly financials**: **SEC + Yahoo Finance → Excel** pipelines for repeatable reporting. |
-| [**wingbits**](https://github.com/RahilBhavan/wingbits) | **Wingbits Customer API**: **TypeScript SDK**, CLI, flights / GPS-jamming workflows, **Ink** TUI. |
 
 
 ## Stack
