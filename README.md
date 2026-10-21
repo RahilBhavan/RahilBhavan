@@ -1,6 +1,15 @@
 # Rahil Bhavan
 
-**University of Michigan, Computer Engineering and Economics.** I build risk models, data pipelines and tools for crypto markets and finance.
+**University of Michigan, Computer Engineering and Economics.** I build evaluated AI tools and on-chain and finance research. More at [rahilbhavan.com](https://rahilbhavan.com).
+
+## Featured projects
+
+- [**Spine**](https://github.com/RahilBhavan/spine): risk dashboard for the nine Morpho markets on Base behind Coinbase's app loans ($1.63B borrowed, September 2026 snapshot); the calibrated liquidation model reproduces three real cbBTC stress events at 0.85-0.99x. [Live](https://spine.rahilbhavan.com)
+- [**dat-accretion**](https://github.com/RahilBhavan/dat-accretion): 98 filing-linked capital actions by Strategy, BitMine and SharpLink measured on net coins per share, with break-even prices for preferred rotations; 170 tests. [Live](https://rahilbhavan.github.io/dat-accretion/)
+- [**Filing research assistant**](https://github.com/RahilBhavan/filing-research-assistant): cited Q&A over SEC filings; checked Claude Haiku answers are correct on 26/30 held-out questions and abstain on 10/10 unanswerable ones, with every served quote verified verbatim.
+- [**Financial metrics analyst**](https://github.com/RahilBhavan/financial-metrics-analyst): standard-library MCP server for SEC facts and ratios, 161/161 evaluation cases passing; a Claude treasury agent over it picks the right tool and arguments on 42/42 in-scope tasks.
+- [**Guardian pipeline**](https://github.com/RahilBhavan/guardian-pipeline): Solidity lending vault with 12 invariants and 92 Foundry tests, mirrored by a runtime monitor; the solvency invariant caught a one-wei repayment bug. [Live](https://guardian.rahilbhavan.com)
+- [**MEV sandwich study**](https://github.com/RahilBhavan/mev-sandwich-batch-study): one week on the busiest WETH/USDT Uniswap v3 pool, where 236 sandwiches cost 244 victims $12,387; replayed under a per-block two-phase mechanism, no sandwich was profitable.
 
 ## Activity
 
@@ -47,12 +56,10 @@ Four independent projects built from public data. Overview: [rahilbhavan.com/cry
 | [**COIN revenue bridge**](https://github.com/RahilBhavan/coin-revenue-bridge) | Splits Coinbase's $863.8M Q3 to Q4 2024 consumer revenue jump from SEC filings: $852.9M volume, $10.9M yield. | [case study](https://rahilbhavan.github.io/coin-revenue-bridge/) |
 | [**x402 exception desk**](https://github.com/RahilBhavan/x402-exception-desk) | Synthetic x402 payment exception desk; across 3,600 scenarios no queue policy wins on every objective. | [operator report](https://rahilbhavan.github.io/x402-exception-desk/) |
 
-## Featured work
+## More work
 
 | Project | One-liner |
 |--------|-----------|
-| [**dat-accretion**](https://github.com/RahilBhavan/dat-accretion) | Per-share effect of **Strategy** and **BitMine** capital actions on **net coins per share**, and each program's **break-even price**. [Dashboard](https://rahilbhavan.github.io/dat-accretion/) |
-| [**Filing research assistant**](https://github.com/RahilBhavan/filing-research-assistant) | **Cited Q&A over SEC 10-K / 10-Q filings** with a held-out eval: complete gold evidence on **18/20** answerable questions, correct **abstention on 10/10** unsupported ones. |
 | [**Ondo flows**](https://github.com/RahilBhavan/Ondo) | Weekly **OUSG / USDY** instant mint and redeem flows, net flow, and unique wallets from **public on-chain data**. [Flows view](https://ondo-nexus.vercel.app/flows) |
 | [**Beefy yield–fidelity monitor**](https://github.com/RahilBhavan/beefy-yield-fidelity-monitor) | **Net APY** and **break-even** framing so headline yield matches what users actually earn after fees, routes, and reality. |
 
