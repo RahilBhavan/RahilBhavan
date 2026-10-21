@@ -1,79 +1,52 @@
 # Rahil Bhavan
 
-**University of Michigan, Computer Engineering and Economics.** I build evaluated AI tools and on-chain and finance research. More at [rahilbhavan.com](https://rahilbhavan.com).
+I am a junior at the University of Michigan (B.S.E. Computer Engineering and B.S. Economics, expected May 2029). I build data pipelines, risk models and evaluated tools for on-chain markets and SEC filings, plus some processor and firmware work. Write-ups are at [rahilbhavan.com](https://rahilbhavan.com).
 
 ## Featured projects
 
-- [**Spine**](https://github.com/RahilBhavan/spine): risk dashboard for the nine Morpho markets on Base behind Coinbase's app loans ($1.63B borrowed, September 2026 snapshot); the calibrated liquidation model reproduces three real cbBTC stress events at 0.85-0.99x. [Live](https://spine.rahilbhavan.com)
-- [**dat-accretion**](https://github.com/RahilBhavan/dat-accretion): 98 filing-linked capital actions by Strategy, BitMine and SharpLink measured on net coins per share, with break-even prices for preferred rotations; 170 tests. [Live](https://rahilbhavan.github.io/dat-accretion/)
-- [**Filing research assistant**](https://github.com/RahilBhavan/filing-research-assistant): cited Q&A over SEC filings; checked Claude Haiku answers are correct on 26/30 held-out questions and abstain on 10/10 unanswerable ones, with every served quote verified verbatim.
-- [**Financial metrics analyst**](https://github.com/RahilBhavan/financial-metrics-analyst): standard-library MCP server for SEC facts and ratios, 161/161 evaluation cases passing; a Claude treasury agent over it picks the right tool and arguments on 42/42 in-scope tasks.
-- [**Guardian pipeline**](https://github.com/RahilBhavan/guardian-pipeline): Solidity lending vault with 12 invariants and 92 Foundry tests, mirrored by a runtime monitor; the solvency invariant caught a one-wei repayment bug. [Live](https://guardian.rahilbhavan.com)
-- [**MEV sandwich study**](https://github.com/RahilBhavan/mev-sandwich-batch-study): one week on the busiest WETH/USDT Uniswap v3 pool, where 236 sandwiches cost 244 victims $12,387; replayed under a per-block two-phase mechanism, no sandwich was profitable.
+### On-chain risk and DeFi
 
-## Activity
+- [**Spine**](https://github.com/RahilBhavan/spine): live risk dashboard and liquidation backtest for Coinbase's on-chain loan book (Morpho Blue on Base). It tracks $1.63B of borrowing across nine markets (2026-09-23 snapshot), and the calibrated model matched realized cbBTC liquidation volume at 0.85x to 0.99x in three stress events. [Live](https://spine.rahilbhavan.com)
+- [**Guardian pipeline**](https://github.com/RahilBhavan/guardian-pipeline): the same 12 invariants for a Solidity lending vault, checked by Foundry fuzzing in CI (92 tests, 2,000-run invariant campaign) and by a TypeScript runtime monitor. The solvency invariant caught a one-wei repayment bug. It is a testnet demo, not production. [Live](https://guardian.rahilbhavan.com)
+- [**MEV sandwich study**](https://github.com/RahilBhavan/mev-sandwich-batch-study): sandwich losses on the Uniswap v3 WETH/USDT 0.01% pool over 5 to 11 Oct 2026. 236 sandwiches cost 244 victims $12,387. Under Chan, Wu and Shi's per-block two-phase clearing, no sandwich made money in replay.
 
-<div align="center">
+### Filings and financial analysis
 
-<img src="https://streak-stats.demolab.com/?user=RahilBhavan&theme=dark&hide_border=true&background=0D1117&ring=30363D&fire=58A6FF&sideNums=C9D1D9&sideLabels=8B949E&dates=6E7681&hide_current_streak=true&card_width=330&disable_animations=true" alt="Total GitHub contributions and longest streak" />
+- [**dat-accretion**](https://github.com/RahilBhavan/dat-accretion): per-share effect of Strategy, BitMine and SharpLink capital actions on net coins per share, and the break-even price of each preferred rotation. It covers 98 filing-linked actions from June to October 2026 and has 170 tests. [Live](https://rahilbhavan.github.io/dat-accretion/)
+- [**Strategy preferred coverage model**](https://github.com/RahilBhavan/strategy-preferred-coverage-model): Excel model of Strategy's preferred dividend coverage, common issuance capacity and convertible puts. At 15 Oct 2026 prices, Strategy's $4,880M reserve covers 37.5 months of cash charges before principal. [Live](https://rahilbhavan.github.io/strategy-preferred-coverage-model/)
+- [**Filing research assistant**](https://github.com/RahilBhavan/filing-research-assistant): answers questions about SEC 10-K and 10-Q filings with cited source passages, or abstains. On a held-out set, checked Claude Haiku answers were correct on 26/30 questions and abstained on 10/10 unanswerable ones. The build agent wrote the labels, and no human has reviewed them.
+- [**Financial metrics analyst**](https://github.com/RahilBhavan/financial-metrics-analyst): MCP server that answers financial-metric questions from SEC filings with exact-decimal arithmetic and provenance on every answer. 161/161 evaluation cases pass. A Claude agent over it chose the correct tool and arguments on 42/42 in-scope tasks in one run.
 
-</div>
+### Systems and hardware
 
-## At a glance
+- [**RV32I core with DOT4**](https://github.com/RahilBhavan/riscv): educational five-stage RV32I core in SystemVerilog with a custom int8 dot-product instruction. 252 programs pass in Icarus and Verilator, it matches Spike on 39/39 architecture tests, and the checkers catch 23/23 injected RTL bugs.
 
-- **Systems + software:** **computer engineering** lens on **full-stack delivery**, performance, and correctness, applied to **protocols and markets**.
-- **Domains:** DeFi risk & automation, smart contracts, **simulation & backtests**, data/ETL pipelines, SDKs and operator tooling.
-- **Proof over pitch:** public repos with **methodology, runbooks, and runnable code** where it matters.
-- **Work authorization:** **U.S. citizen**, no sponsorship required.
+## More projects
 
-## Building now
+On-chain risk and DeFi
 
-- **Protocol monitoring & invariants**: Rust / EVM replay-style workflows; early warning on broken assumptions.
-- **Stress-testing automation**: stop-loss and vault behavior under **gas spikes and drawdowns**.
-- **Product surfaces**: strategy builders, dashboards, and **paper / testnet paths** before mainnet.
+- [Spine Midnight](https://github.com/RahilBhavan/spine-midnight): outcomes of Morpho Midnight fixed-maturity loans on Base. Of 148 positions due on 25 Sep 2026, 124 were repaid.
+- [Yield/Fidelity](https://github.com/RahilBhavan/beefy-yield-fidelity-monitor): compares reported Beefy vault yield on Base with realized on-chain growth and the cost break-even. [Live](https://yield.rahilbhavan.com)
+- [Ondo flows](https://github.com/RahilBhavan/Ondo): weekly OUSG and USDY instant mint and redeem volume, net flow and unique wallets from public on-chain data. [Live](https://ondo-nexus.vercel.app/flows)
+- [x402 exception desk](https://github.com/RahilBhavan/x402-exception-desk): synthetic x402 payment exception desk on Base, with queue-policy experiments over 3,600 scenarios. [Report](https://rahilbhavan.github.io/x402-exception-desk/)
+- [Limit canvas](https://github.com/RahilBhavan/limit-canvas): visual builder and verifier for 1inch Limit Order Protocol v4.3.2 extensions.
+- [Praetor](https://github.com/RahilBhavan/praetor): early scaffold of a policy firewall for on-chain agents. The adversarial harness is not built yet.
 
-## How I ship
+Filings and financial analysis
 
-- **Reproducible narratives**: stress windows, parameters, and outcomes a reviewer can follow.
-- **Clear boundaries**: what the model assumes vs. what on-chain reality can break.
-- **Docs first for collaborators**: quick start, status (active / research / archived), and how to verify.
+- [COIN revenue bridge](https://github.com/RahilBhavan/coin-revenue-bridge): splits Coinbase's $863.8M Q3 to Q4 2024 consumer revenue rise into volume and yield effects from SEC filings. [Live](https://revenue.rahilbhavan.com)
+- [MARA credit case](https://github.com/RahilBhavan/mara-credit-case): credit committee case on a hypothetical $5M secured revolver to MARA Holdings. [Live](https://mara.rahilbhavan.com)
+- [Filing tracker](https://github.com/RahilBhavan/filing-tracker): what changed between two 10-K filings, as aligned diffs of Risk Factors and MD&A with citations.
+- [AuctionFlow](https://github.com/RahilBhavan/auctionflow): offline, deterministic replay of CME Micro E-mini (MES) sessions with a fail-closed risk journal. It is research only and never places orders.
 
-## What I do
+Systems and hardware
 
-- **Protocol safety & automation**: invariant checks, historical replay, and stress paths (gas, liquidity, vol).
-- **Yield & execution clarity**: net APY, break-even framing, and dashboards that match how positions actually behave.
-- **Identity & agents on-chain**: underwriting-style primitives for verifiable agent economies (ERC-6551, 4337-aware flows).
-- **Ops-grade data**: scrape → normalize → ship (supply-chain finance, market consoles, customer API SDKs).
-
-## Crypto finance case studies
-
-Four independent projects built from public data. Overview: [rahilbhavan.com/crypto-finance](https://rahilbhavan.com/crypto-finance)
-
-| Project | Result | Live |
-|--------|-----------|------|
-| [**Spine**](https://github.com/RahilBhavan/spine) | Replays Coinbase's on-chain loan book (Morpho on Base) through seven historical crashes; liquidator capital, not the LTV, is what binds. | [dashboard](https://rahilbhavan.github.io/spine/) |
-| [**MARA credit case**](https://github.com/RahilBhavan/mara-credit-case) | Credit committee case on a $5M secured revolver to MARA Holdings; the collateral waterfall supports a conditional $3.0M. | [decision view](https://rahilbhavan.github.io/mara-credit-case/) |
-| [**COIN revenue bridge**](https://github.com/RahilBhavan/coin-revenue-bridge) | Splits Coinbase's $863.8M Q3 to Q4 2024 consumer revenue jump from SEC filings: $852.9M volume, $10.9M yield. | [case study](https://rahilbhavan.github.io/coin-revenue-bridge/) |
-| [**x402 exception desk**](https://github.com/RahilBhavan/x402-exception-desk) | Synthetic x402 payment exception desk; across 3,600 scenarios no queue policy wins on every objective. | [operator report](https://rahilbhavan.github.io/x402-exception-desk/) |
-
-## More work
-
-| Project | One-liner |
-|--------|-----------|
-| [**Ondo flows**](https://github.com/RahilBhavan/Ondo) | Weekly **OUSG / USDY** instant mint and redeem flows, net flow, and unique wallets from **public on-chain data**. [Flows view](https://ondo-nexus.vercel.app/flows) |
-| [**Beefy yield–fidelity monitor**](https://github.com/RahilBhavan/beefy-yield-fidelity-monitor) | **Net APY** and **break-even** framing so headline yield matches what users actually earn after fees, routes, and reality. |
-
-
-## Stack
-
-Python · TypeScript · Next.js · Solidity · Foundry / Hardhat · Rust · FastAPI · The Graph · Supabase
+- [Cortex-M deterministic replay](https://github.com/RahilBhavan/cortex-m-deterministic-replay): record and replay for Cortex-M firmware, run in host emulation, with an FPGA capture gateway checked in Verilator.
 
 ## Contact
 
-- **Website:** [rahilbhavan.com](https://rahilbhavan.com)
-- **LinkedIn:** [linkedin.com/in/rahil-bhavan](https://www.linkedin.com/in/rahil-bhavan/)
-- **Email:** [rbhavan@umich.edu](mailto:rbhavan@umich.edu)
+- Website: [rahilbhavan.com](https://rahilbhavan.com)
+- LinkedIn: [linkedin.com/in/rahil-bhavan](https://www.linkedin.com/in/rahil-bhavan/)
+- Email: [rbhavan@umich.edu](mailto:rbhavan@umich.edu)
 
----
-
-**Open to internships and full-time roles** in **on-chain risk, protocol engineering, and quant-leaning DeFi / data**.
+Open to internships in software engineering, product and crypto finance. I am a U.S. citizen and need no visa sponsorship.
