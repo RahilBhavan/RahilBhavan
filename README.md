@@ -7,7 +7,7 @@ I am a junior at the University of Michigan (B.S.E. Computer Engineering and B.S
 ### On-chain risk and DeFi
 
 - [**Spine**](https://github.com/RahilBhavan/spine): live risk dashboard and liquidation backtest for Coinbase's on-chain loan book (Morpho Blue on Base). It tracks $1.63B of borrowing across nine markets (2026-09-23 snapshot), and the calibrated model matched realized cbBTC liquidation volume at 0.85x to 0.99x in three stress events. [Live](https://spine.rahilbhavan.com)
-- [**Guardian pipeline**](https://github.com/RahilBhavan/guardian-pipeline): the same 12 invariants for a Solidity lending vault, checked by Foundry fuzzing in CI (92 tests, 2,000-run invariant campaign) and by a TypeScript runtime monitor. The solvency invariant caught a one-wei repayment bug. It is a testnet demo, not production. [Live](https://guardian.rahilbhavan.com)
+- [**Guardian pipeline**](https://github.com/RahilBhavan/guardian-pipeline): the same 12 invariants for a Solidity lending vault, checked by Foundry fuzzing in CI (99 tests, 2,000-run invariant campaign) and by a TypeScript runtime monitor. The solvency invariant caught a one-wei repayment bug. It is a testnet demo, not production. [Live](https://guardian.rahilbhavan.com)
 - [**MEV sandwich study**](https://github.com/RahilBhavan/mev-sandwich-batch-study): sandwich losses on the Uniswap v3 WETH/USDT 0.01% pool over 5 to 11 Oct 2026. 236 sandwiches cost 244 victims $12,387. Under Chan, Wu and Shi's per-block two-phase clearing, no sandwich made money in replay.
 
 ### Filings and financial analysis
