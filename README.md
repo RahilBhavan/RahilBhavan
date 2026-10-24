@@ -30,6 +30,7 @@ On-chain risk and DeFi
 - [Ondo flows](https://github.com/RahilBhavan/Ondo): weekly OUSG and USDY instant mint and redeem volume, net flow and unique wallets from public on-chain data. [Live](https://ondo-nexus.vercel.app/flows)
 - [x402 exception desk](https://github.com/RahilBhavan/x402-exception-desk): synthetic x402 payment exception desk on Base, with queue-policy experiments over 3,600 scenarios. [Report](https://rahilbhavan.github.io/x402-exception-desk/)
 - [Limit canvas](https://github.com/RahilBhavan/limit-canvas): visual builder and verifier for 1inch Limit Order Protocol v4.3.2 extensions.
+- [ShadowSolve](https://github.com/RahilBhavan/shadowsolve): advisory-only shadow solver for constant-product auctions in Rust, with Postgres provenance and fail-closed ingestion. It never submits transactions.
 
 Filings and financial analysis
 
@@ -50,6 +51,7 @@ Strategy capital structure: small offline tools built from Strategy's SEC filing
 - [Ask filings](https://github.com/RahilBhavan/strategy-ask-filings): answers set questions from dated filing evidence, with explicit refusals.
 - [Proof of reserves](https://github.com/RahilBhavan/treasury-proof-of-reserves): regtest demo with BIP-322 asset signatures and Merkle-sum liability proofs. [Live](https://rahilbhavan.github.io/treasury-proof-of-reserves/)
 - [did:btc resolver](https://github.com/RahilBhavan/did-btc-resolver): independent resolver for the did:btc draft, checked through a Bitcoin Core regtest lifecycle.
+- [Mismatch investigator](https://github.com/RahilBhavan/strategy-mismatch-investigator): explains a gap between two report totals by rerunning one report with the other's filter. Synthetic records and a simulated adapter; not affiliated with Strategy.
 
 Systems and hardware
 
