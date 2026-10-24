@@ -30,7 +30,6 @@ On-chain risk and DeFi
 - [Ondo flows](https://github.com/RahilBhavan/Ondo): weekly OUSG and USDY instant mint and redeem volume, net flow and unique wallets from public on-chain data. [Live](https://ondo-nexus.vercel.app/flows)
 - [x402 exception desk](https://github.com/RahilBhavan/x402-exception-desk): synthetic x402 payment exception desk on Base, with queue-policy experiments over 3,600 scenarios. [Report](https://rahilbhavan.github.io/x402-exception-desk/)
 - [Limit canvas](https://github.com/RahilBhavan/limit-canvas): visual builder and verifier for 1inch Limit Order Protocol v4.3.2 extensions.
-- [Praetor](https://github.com/RahilBhavan/praetor): early scaffold of a policy firewall for on-chain agents. The adversarial harness is not built yet.
 
 Filings and financial analysis
 
@@ -38,6 +37,19 @@ Filings and financial analysis
 - [MARA credit case](https://github.com/RahilBhavan/mara-credit-case): credit committee case on a hypothetical $5M secured revolver to MARA Holdings. [Live](https://mara.rahilbhavan.com)
 - [Filing tracker](https://github.com/RahilBhavan/filing-tracker): what changed between two 10-K filings, as aligned diffs of Risk Factors and MD&A with citations.
 - [AuctionFlow](https://github.com/RahilBhavan/auctionflow): offline, deterministic replay of CME Micro E-mini (MES) sessions with a fail-closed risk journal. It is research only and never places orders.
+
+Strategy capital structure: small offline tools built from Strategy's SEC filings
+
+- [8-K ledger](https://github.com/RahilBhavan/strategy-8k-ledger): source-traceable treasury ledger with frozen SEC evidence and reconciliation checks.
+- [Preferred accrual ledger](https://github.com/RahilBhavan/preferred-accrual-ledger): replays five sourced preferred dividend schedules and reports reconciliation gaps.
+- [Credit curve](https://github.com/RahilBhavan/strategy-credit-curve): sourced comparisons of Strategy's preferreds and convertible scenarios.
+- [STRC rate controller](https://github.com/RahilBhavan/strc-rate-controller): replays STRC's discretionary rate resets.
+- [Coverage Monte Carlo](https://github.com/RahilBhavan/strategy-coverage-montecarlo): conditional funding exhaustion across reserve, common ATM and BTC-sale scenarios.
+- [Fair-value earnings](https://github.com/RahilBhavan/strategy-fair-value-earnings): reproduces BTC fair-value earnings and simplified CAMT scenarios.
+- [Issuance router](https://github.com/RahilBhavan/strategy-issuance-router): dated financing rules compared with SEC-disclosed weekly issuance.
+- [Ask filings](https://github.com/RahilBhavan/strategy-ask-filings): answers set questions from dated filing evidence, with explicit refusals.
+- [Proof of reserves](https://github.com/RahilBhavan/treasury-proof-of-reserves): regtest demo with BIP-322 asset signatures and Merkle-sum liability proofs. [Live](https://rahilbhavan.github.io/treasury-proof-of-reserves/)
+- [did:btc resolver](https://github.com/RahilBhavan/did-btc-resolver): independent resolver for the did:btc draft, checked through a Bitcoin Core regtest lifecycle.
 
 Systems and hardware
 
